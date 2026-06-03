@@ -59,7 +59,7 @@ Despite BC achieving lower per-step MAE during offline evaluation, ACT dramatica
 | Primary Failure Mode | Trajectory stagnation | — |
 
 ### BC/ACT Full Rollout
-| BC Policy — 0% Success | ACT Policy — 100% Success |
+| BC Policy - 0% Success | ACT Policy - 100% Success |
 |:---:|:---:|
 | ![BC rollout](/images/bc_rollout.gif) | ![ACT rollout](/images/act_rollout.gif) |
 
