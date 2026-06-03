@@ -1,5 +1,6 @@
 ---
 title: "Reactive Navigation under Uncertainty: Bug2 Implementation and Performance Analysis in ROS2"
+date: 2026-05-05
 excerpt: "ROS2/Gazebo implementation and evaluation of the Bug2 reactive navigation algorithm, including trajectory logging and multi-trial performance analysis to study limitations of purely reactive planning.<br/>
     <a href='https://github.com/sunday-ikechukwu/Bug2-Maze-Navigation-ROS2'>
     <img src='/images/bug2_demo.gif'>

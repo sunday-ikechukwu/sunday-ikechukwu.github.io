@@ -1,6 +1,6 @@
 ---
 title: "Transformer-Based Imitation Learning for Long-Horizon Robotic Pick-and-Place Manipulation"
-date: 2026-01-01
+date: 2026-06-03
 tags: [Robot Learning, Imitation Learning, Transformers, CoppeliaSim]
 excerpt: "Can a policy trained offline on expert demonstrations reliably execute sequential robotic manipulation in closed-loop? This project investigates that question by comparing Behavioural Cloning (BC) and Action Chunking Transformers (ACT) on a randomized UR5 pick-and-place task in CoppeliaSim. Through controlled evaluation under identical initial conditions, I examined how covariate shift, temporal consistency, and action chunking influence long-horizon execution stability. Despite achieving very low offline validation error (MSE ≈ 0.001), BC frequently exhibited freezing and drift accumulation during deployment, whereas ACT produced stable trajectories and successfully completed all 20 evaluation episodes within the same workspace distribution used for demonstration collection.<br/>
     <a href='https://github.com/sunday-ikechukwu/ur5-imitation-learning'>
