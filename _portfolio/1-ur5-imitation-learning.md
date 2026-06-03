@@ -59,9 +59,16 @@ Despite BC achieving lower per-step MAE during offline evaluation, ACT dramatica
 | Primary Failure Mode | Trajectory stagnation | — |
 
 ### BC/ACT Full Rollout
-| BC Policy - 0% Success | ACT Policy - 100% Success |
-|---|---|
-| ![BC rollout](/images/bc_rollout.gif) | ![ACT rollout](/images/act_rollout.gif) |
+<table>
+  <tr>
+    <td align="center"><b>BC Policy - 0% Success</b></td>
+    <td align="center"><b>ACT Policy - 100% Success</b></td>
+  </tr>
+  <tr>
+    <td><img src="/images/bc_rollout.gif" width="100%"></td>
+    <td><img src="/images/act_rollout.gif" width="100%"></td>
+  </tr>
+</table>
 
 >BC failed on all 20 episodes due to covariate shift, once the arm deviated slightly from expert trajectories, the policy entered states unseen during training, producing low-magnitude actions that caused the arm to stall. ACT completed every episode in under 90 steps with consistent sub-5cm placement accuracy.
 
