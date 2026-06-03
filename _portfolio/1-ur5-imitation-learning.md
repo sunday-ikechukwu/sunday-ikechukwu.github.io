@@ -60,7 +60,7 @@ Despite BC achieving lower per-step MAE during offline evaluation, ACT dramatica
 
 ### BC/ACT Full Rollout
 | BC Policy - 0% Success | ACT Policy - 100% Success |
-|:---:|:---:|
+|---|---|
 | ![BC rollout](/images/bc_rollout.gif) | ![ACT rollout](/images/act_rollout.gif) |
 
 >BC failed on all 20 episodes due to covariate shift, once the arm deviated slightly from expert trajectories, the policy entered states unseen during training, producing low-magnitude actions that caused the arm to stall. ACT completed every episode in under 90 steps with consistent sub-5cm placement accuracy.
