@@ -1,0 +1,19 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+{% include base_path %}
+
+
+<!-- {% for post in site.research %}
+  {% include archive-single.html %}
+{% endfor %} -->
+
+{% assign sorted_research = site.research | sort: 'date' | reverse %}
+{% for post in sorted_research %}
+  {% include archive-single.html %}
+{% endfor %}
+

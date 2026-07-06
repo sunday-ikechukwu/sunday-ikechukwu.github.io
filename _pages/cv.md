@@ -18,4 +18,4 @@ redirect_from:
         background: white;
     "></iframe>
 
-<p><a href="/files/SUNDAY_IKECHUKWU_Resume.pdf" target="_blank"><strong>📄 Download CV</strong></a></p>
+<p><a href="/files/SUNDAY_IKECHUKWU_CV.pdf" target="_blank"><strong>📄 Download CV</strong></a></p>
