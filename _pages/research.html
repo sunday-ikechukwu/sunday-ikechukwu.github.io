@@ -12,8 +12,16 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-{% assign sorted_research = site.research | sort: 'date' | reverse %}
+<!-- {% assign sorted_research = site.research | sort: 'date' | reverse %}
 {% for post in sorted_research %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
+{% if site.research %}
+  {% assign sorted_research = site.research | sort: 'date' | reverse %}
+  {% for post in sorted_research %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p>No research projects posted yet.</p>
+{% endif %}
 
