@@ -16,8 +16,17 @@ author_profile: true
 {% for post in sorted_research %}
   {% include archive-single.html %}
 {% endfor %} -->
-{% if site.research %}
+<!-- {% if site.research %}
   {% assign sorted_research = site.research | sort: 'date' | reverse %}
+  {% for post in sorted_research %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p>No research projects posted yet.</p>
+{% endif %} -->
+
+{% if site.research %}
+  {% assign sorted_research = site.research | sort: 'weight' %}
   {% for post in sorted_research %}
     {% include archive-single.html %}
   {% endfor %}

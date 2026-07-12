@@ -1,6 +1,7 @@
 ---
 title: "Towards Automated Maritime Logistics: Simulation-Based Design of a Robotic Arm for Container Ship Cargo Handling"
 date: 2026-07-06
+weight: 30
 tags: [Robotics, Control Systems, Inverse Kinematics, CoppeliaSim, Lua, Automation]
 excerpt: "How can robotic manipulators be integrated into dynamic cargo logistics systems to achieve fully autonomous palletizing? This project presents a simulation-based design and control architecture for a 6-DOF UR10 robotic arm performing container ship cargo handling in CoppeliaSim. Using a distributed, multi-script control scheme in Lua, I synchronized the robotic manipulator with conveyor actuators and object spawn triggers to establish an autonomous pick-place-return cycle. To maintain throughput stability, sensor-driven anti-stacking and collision-avoidance protocols were developed to dynamically regulate conveyor feed rate. Finally, I integrated CoppeliaSim's simIK module for robust online trajectory generation, coupled with an algorithmic 5x4 grid spatial mapping for automated and precise cargo palletizing.<br/>
     <a href='https://github.com/sunday-ikechukwu/CoppeliaSim-RobotArm-PickAndPlace'>
